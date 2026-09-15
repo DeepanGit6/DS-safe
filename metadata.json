@@ -1,0 +1,6 @@
+{
+  "name": "Safe DS",
+  "description": "Mission-critical personal safety and real-time telemetry cockpit featuring live sync, journey tracking, emergency SOS, safe places geofencing, weekly analytics, and PDF report export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

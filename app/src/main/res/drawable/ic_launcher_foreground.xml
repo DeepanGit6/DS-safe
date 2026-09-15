@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield Base Layer -->
+    <path
+        android:pathData="M54,22 C67,25 78,28 82,34 C82,56 71,74 54,86 C37,74 26,56 26,34 C30,28 41,25 54,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="86"
+                android:type="linear">
+                <item android:color="#0052FF" android:offset="0.0" />
+                <item android:color="#0035A8" android:offset="0.6" />
+                <item android:color="#060D24" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield Border Rim -->
+    <path
+        android:pathData="M54,22 C67,25 78,28 82,34 C82,56 71,74 54,86 C37,74 26,56 26,34 C30,28 41,25 54,22 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00EEFC"
+        android:fillColor="#00000000" />
+
+    <!-- Top GPS Indicator Dot -->
+    <path
+        android:pathData="M54,27 A2,2 0 1,0 54,31 A2,2 0 1,0 54,27 Z"
+        android:fillColor="#00EEFC" />
+
+    <!-- Letter 'D' -->
+    <path
+        android:pathData="M40,38 L45,38 C49.5,38 52,40.5 52,45 C52,49.5 49.5,52 45,52 L40,52 Z M43.5,41 L43.5,49 L45,49 C47.5,49 48.8,47.5 48.8,45 C48.8,42.5 47.5,41 45,41 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Letter 'S' -->
+    <path
+        android:pathData="M65,40.5 L62.5,42.2 C61.2,40.8 59.5,40.2 58,40.8 C56.5,41.4 55.8,42.6 56,43.8 C56.3,45.5 58.5,46.2 61.2,47 C64.5,48 66.5,49.5 66.2,52 C65.8,55 62.8,56.5 59,56 C56,55.5 53.8,54 52.5,52.2 L55,50.2 C56,51.8 57.5,52.8 59.2,53 C60.8,53.2 62.2,52.5 62.5,51.2 C62.8,50 61.2,49.2 58.8,48.5 C55.5,47.5 53.2,46 53.5,43.2 C53.8,40.5 56.5,38.8 60,38.8 C62.2,38.8 64,39.5 65,40.5 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Telemetry Beacon Cone Beam Rays -->
+    <path
+        android:pathData="M54,55 L42,80"
+        android:strokeWidth="1.8"
+        android:strokeColor="#00EEFC" />
+    <path
+        android:pathData="M54,55 L66,80"
+        android:strokeWidth="1.8"
+        android:strokeColor="#00EEFC" />
+    <path
+        android:pathData="M38,80 L70,80"
+        android:strokeWidth="1.8"
+        android:strokeColor="#0052FF" />
+</vector>
